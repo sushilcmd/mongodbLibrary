@@ -1,7 +1,7 @@
 var MongoClient = require('mongodb').MongoClient,
     assert = require("assert");
 
-var connectionUrl = "mongodb://localhost:27017/dbName
+//var connectionUrl = "mongodb://localhost:27017/dbName
 
 function createConnection(connectionUrl) {
     return new Promise((resolve, reject) => {
